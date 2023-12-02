@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background: #252a28;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+canvas {
+    border: 2px solid #fff;
+    image-rendering: pixelated;
+    background: url('./maze_level-1.png') no-repeat center center;
+    background-size: cover;
+}
+
+.rules {
+    padding: 10vh 30vh;
+    text-align: center;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.text-with-glow {
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
